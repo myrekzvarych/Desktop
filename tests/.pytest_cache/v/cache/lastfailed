@@ -1,3 +1,5 @@
 {
+  "test_login.py": true,
+  "test_login.py::TestClass::()::test_enter_logo": true,
   "test_notepad.py": true
 }
