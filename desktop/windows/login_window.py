@@ -15,12 +15,13 @@ class LoginWindow:
         self.ok_button = (By.ID, 'm_btnOK')
         self.cancel_button = (By.ID, 'pass')
 
-
     def enter_pasword(self, password):
         self.driver.find_element(*self.password_box).send_keys(password)
 
     def click_ok(self):
         self.driver.find_element(*self.ok_button).click()
+
+
 
 class AlertWindow:
 
@@ -31,6 +32,6 @@ class AlertWindow:
 
     def verify_shown_alert(self):
         try:
-            return self.driver.find_element(*self.alert).is_displayed()
+            return self.driver.find_elements(*self.alert)
         except NoSuchElementException:
             return False

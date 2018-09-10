@@ -1,6 +1,7 @@
 from selenium import webdriver
 import os
 from desktop.windows.login_window import LoginWindow, AlertWindow
+from desktop.windows.main_window import MainWindow
 
 
 class TestClass:
@@ -18,5 +19,5 @@ class TestClass:
         login_form = LoginWindow(self.driver)
         login_form.enter_pasword('=Nws@A0Y')
         login_form.click_ok()
-        alert = AlertWindow(self.driver)
-        assert alert.verify_shown_alert() == True
+        main_window = MainWindow(self.driver)
+        assert main_window.check_main_frame() == 'title bar'
