@@ -1,6 +1,6 @@
 from selenium import webdriver
 import os
-from desktop.windows.login_window import LoginWindow, AlertWindow
+from desktop.windows.login_window import LoginWindow
 from desktop.windows.main_window import MainWindow
 
 

@@ -1,5 +1,5 @@
 {
-  "test_create_entry.py::TestClass::()::test_enter_logo": true,
+  "test_create_entry.py": true,
   "test_login.py": true,
   "test_login_positive.py::TestClass::()::test_enter_logo": true,
   "test_notepad.py": true

@@ -17,7 +17,7 @@ class EntryFrame:
     def __init__(self, driver):
         self.driver = driver
         self.storage_location = (By.ID, "m_lvEntries")
-        self.list_of_records = (By.ID, "ListViewSubItem-0")
+        self.list_of_records = (By.ID, "ListViewItem-0")
 
 
     def right_click(self):
@@ -26,8 +26,18 @@ class EntryFrame:
         action.perform()
         return ContexMenu(self.driver)
 
+    def double_click(self):
+        action = ActionChains(self.driver)
+        action.double_click(self.driver.find_elements(*self.list_of_records))
+        action.perform()
+
     def get_list_of_title(self):
-        self.driver.find_elements(*self.list_of_records)
+        storage = self.driver.find_element(*self.storage_location)
+        list_elements = storage.find_elements()
+        title_name = []
+        for title in list_elements:
+            title_name.append(title.get_attribute("Name"))
+        return title_name
 
 
 class ContexMenu:
