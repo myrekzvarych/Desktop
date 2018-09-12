@@ -1,5 +1,3 @@
 [
-  "test_create_entry.py::TestClass::()::test_enter_logo",
-  "test_login_negative.py::TestClass::()::test_enter_logo",
-  "test_login_positive.py::TestClass::()::test_enter_logo"
+  "test_create_entry.py::TestClass::()::test_enter_logo"
 ]

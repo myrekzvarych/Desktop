@@ -1,7 +1,10 @@
 from desktop.windows.login_window import LoginWindow
-from desktop.windows.main_window import  EntryFrame
+from desktop.windows.main_window import EntryFrame
 import pytest
 import configparser
+
+config = configparser.ConfigParser()
+config.read("config.ini")
 
 
 @pytest.mark.usefixtures("setup_tear_down")
@@ -9,7 +12,7 @@ class TestClass:
 
     def test_enter_logo(self):
         login_form = LoginWindow(self.driver)
-        login_form.enter_pasword('=Nws@A0Y')
+        login_form.enter_pasword(config["credential"]["password"])
         login_form.click_ok()
         entry_frame = EntryFrame(self.driver)
         contex_menu = entry_frame.right_click()
