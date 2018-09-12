@@ -19,7 +19,6 @@ class EntryFrame:
         self.storage_location = (By.ID, "m_lvEntries")
         self.list_of_records = (By.ID, "ListViewItem-0")
 
-
     def right_click(self):
         action = ActionChains(self.driver)
         action.context_click(self.driver.find_element(*self.storage_location))
