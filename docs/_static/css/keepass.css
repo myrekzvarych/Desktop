@@ -1,0 +1,30 @@
+.wy-nav-content {
+    max-width: 100%;
+}
+
+dt{
+    width: 80%;
+}
+
+table{
+    border: 5px solid grey;
+
+}
+th{
+    background-color: #e6ccff;
+}
+
+pre{
+    background-color: #c1f0c1;
+}
+
+/* override table width restrictions */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
+.wy-table-responsive {
+    margin-bottom: 24px;
+    max-width: 100%;
+    overflow: visible;
+}
