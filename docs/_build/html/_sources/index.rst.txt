@@ -10,7 +10,7 @@ Welcome to KeePass's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   desktop
+   windows
    tests
    utils
 

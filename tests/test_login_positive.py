@@ -3,8 +3,10 @@ from desktop.windows.main_window import MainWindow
 import pytest
 import configparser
 
+
 config = configparser.ConfigParser()
 config.read("config.ini")
+password = config["credential"]["password"]
 
 
 @pytest.mark.usefixtures("setup_tear_down")
@@ -12,7 +14,7 @@ class TestClass:
 
     def test_enter_logo(self):
         login_form = LoginWindow(self.driver)
-        login_form.enter_pasword(config["credential"]["password"])
+        login_form.enter_pasword(password)
         login_form.click_ok()
         main_window = MainWindow(self.driver)
         assert main_window.check_main_frame() == 'title bar'

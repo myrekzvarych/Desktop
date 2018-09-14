@@ -5,6 +5,7 @@ import configparser
 
 config = configparser.ConfigParser()
 config.read("config.ini")
+password = config["credential"]["password"]
 
 
 @pytest.mark.usefixtures("setup_tear_down")
@@ -12,8 +13,7 @@ class TestClass:
 
     def test_enter_logo(self):
         login_form = LoginWindow(self.driver)
-        login_form.enter_pasword(config["credential"]["password"])
-        login_form.click_ok()
+        login_form.sign_in(password)
         entry_frame = EntryFrame(self.driver)
         contex_menu = entry_frame.right_click()
         add_entry = contex_menu.click_add_entry_option()
