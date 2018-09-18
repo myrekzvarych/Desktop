@@ -17,7 +17,7 @@ class TestClass:
         entry_frame = aria_frame.select_group(name_group)
         contex_menu = entry_frame.right_click_on_entry()
         add_entry = contex_menu.click_add_entry_option()
-        entry_frame = add_entry.create_record("mirekzvar@gmail.com", "mirek", "QwErTy")
+        entry_frame = add_entry.create_record("mirek@gmail.com", "mirek", "QwErTy")
         assert "mirekzvar@gmail.com" in entry_frame.get_list_of_title()
 
     def test_create_group(self):
