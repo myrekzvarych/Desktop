@@ -11,12 +11,31 @@ password = config["credential"]["password"]
 @pytest.mark.usefixtures("setup_tear_down")
 class TestClass:
 
-    def test_enter_logo(self):
+    def test_create_general_record(self):
         login_form = LoginWindow(self.driver)
-        login_form.sign_in(password)
-        entry_frame = EntryFrame(self.driver)
-        contex_menu = entry_frame.right_click()
+        main_window = login_form.sign_in(password)
+        aria_frame = main_window.aria_frame
+        entry_frame = aria_frame.select_general()
+        contex_menu = entry_frame.right_click_on_entry()
         add_entry = contex_menu.click_add_entry_option()
-        add_entry.fill_in_necessary_fields("my_email@gmail.com", "mirek", "QwErTy1_*")
-        entry_frame = add_entry.click_ok()
-        assert "my_email@gmail.com" in entry_frame.get_list_of_title()
+        entry_frame = add_entry.create_record("mirekzvar@gmail.com", "mirek", "QwErTy")
+        assert "mirekzvar@gmail.com" in entry_frame.get_list_of_title()
+
+    def test_create_windows_record(self):
+        login_form = LoginWindow(self.driver)
+        main_window = login_form.sign_in(password)
+        aria_frame = main_window.aria_frame
+        entry_frame = aria_frame.select_windows()
+        contex_menu = entry_frame.right_click_on_entry()
+        add_entry = contex_menu.click_add_entry_option()
+        entry_frame = add_entry.create_record("mirekzvar@gmail.com", "mirek", "QwErTy")
+        assert "mirekzvar@gmail.com" in entry_frame.get_list_of_title()
+
+    def test_create_group(self):
+        login_form = LoginWindow(self.driver)
+        main_window = login_form.sign_in(password)
+        aria_frame = main_window.aria_frame
+        contex_menu = aria_frame.right_click_on_aria()
+        add_group=contex_menu.click_add_group_option()
+        aria_frame = add_group.create_group("MyGroup")
+        assert "MyGroup" in aria_frame.get_list_of_groups()

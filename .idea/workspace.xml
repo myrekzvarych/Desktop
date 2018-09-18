@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3191e287-c06d-4811-8fa6-81ecc972f80e" name="initial commit" comment="Add sphinx">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/tests.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/windows.rst" />
+    <list default="true" id="3191e287-c06d-4811-8fa6-81ecc972f80e" name="initial commit" comment="make changes in test methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/desktop/windows/login_window.py" afterPath="$PROJECT_DIR$/desktop/windows/login_window.py" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/index.doctree" afterPath="$PROJECT_DIR$/docs/_build/doctrees/index.doctree" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/_sources/index.rst.txt" afterPath="$PROJECT_DIR$/docs/_build/html/_sources/index.rst.txt" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/genindex.html" afterPath="$PROJECT_DIR$/docs/_build/html/genindex.html" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/index.html" afterPath="$PROJECT_DIR$/docs/_build/html/index.html" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/objects.inv" afterPath="$PROJECT_DIR$/docs/_build/html/objects.inv" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/search.html" afterPath="$PROJECT_DIR$/docs/_build/html/search.html" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/searchindex.js" afterPath="$PROJECT_DIR$/docs/_build/html/searchindex.js" />
-      <change beforePath="$PROJECT_DIR$/docs/index.rst" afterPath="$PROJECT_DIR$/docs/index.rst" />
-      <change beforePath="$PROJECT_DIR$/tests/config.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/desktop/windows/main_window.py" afterPath="$PROJECT_DIR$/desktop/windows/main_window.py" />
+      <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" afterPath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" />
       <change beforePath="$PROJECT_DIR$/tests/test_create_entry.py" afterPath="$PROJECT_DIR$/tests/test_create_entry.py" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_negative.py" afterPath="$PROJECT_DIR$/tests/test_login_negative.py" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_positive.py" afterPath="$PROJECT_DIR$/tests/test_login_positive.py" />
     </list>
     <ignored path="tests/config.ini" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +30,7 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="34">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -92,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_window.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_window.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop/windows/login_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="61">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -104,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_window.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_window.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/windows/main_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -119,8 +106,8 @@
       <file leaf-file-name="test_create_entry.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_create_entry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="296">
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -170,9 +157,9 @@
         <option value="$PROJECT_DIR$/tests/test_login_negative.py" />
         <option value="$PROJECT_DIR$/docs/tests.rst" />
         <option value="$PROJECT_DIR$/docs/windows.rst" />
-        <option value="$PROJECT_DIR$/desktop/windows/main_window.py" />
-        <option value="$PROJECT_DIR$/tests/test_create_entry.py" />
         <option value="$PROJECT_DIR$/desktop/windows/login_window.py" />
+        <option value="$PROJECT_DIR$/tests/test_create_entry.py" />
+        <option value="$PROJECT_DIR$/desktop/windows/main_window.py" />
       </list>
     </option>
   </component>
@@ -286,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_create_entry.TestClass">
+  <component name="RunManager" selected="Python tests.py.test in test_create_entry.py">
     <configuration name="py.test for test_create_entry.TestClass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,9 +358,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_create_entry.TestClass" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_login_positive.TestClass" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_create_entry.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_create_entry.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_create_entry.TestClass" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_login_positive.TestClass" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login_positive.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_login_negative.py" />
       </list>
@@ -456,30 +443,37 @@
       <option name="project" value="LOCAL" />
       <updated>1536844738026</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="make changes in test methods">
+      <created>1536940459181</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536940459181</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_create_entry_TestClass - 2018.09.14 at 18h 11m 32s.xml">
-      <configuration name="py.test for test_create_entry.TestClass" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_login_positive_TestClass - 2018.09.13 at 18h 20m 03s.xml">
-      <configuration name="py.test for test_login_positive.TestClass" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_login_positive_TestClass - 2018.09.13 at 18h 20m 35s.xml">
-      <configuration name="py.test for test_login_positive.TestClass" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_create_entry_py - 2018.09.12 at 16h 30m 12s.xml">
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 12h 00m 36s.xml">
       <configuration name="py.test in test_create_entry.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_create_entry_py - 2018.09.13 at 16h 42m 48s.xml">
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 12h 04m 11s.xml">
       <configuration name="py.test in test_create_entry.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_positive_py - 2018.09.12 at 16h 00m 32s.xml">
-      <configuration name="py.test in test_login_positive.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 14h 16m 17s.xml">
+      <configuration name="py.test in test_create_entry.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_positive_py - 2018.09.12 at 16h 00m 59s.xml">
-      <configuration name="py.test in test_login_positive.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 14h 19m 11s.xml">
+      <configuration name="py.test in test_create_entry.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 14h 24m 55s.xml">
+      <configuration name="py.test in test_create_entry.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 15h 17m 15s.xml">
+      <configuration name="py.test in test_create_entry.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_create_entry_py - 2018.09.17 at 15h 17m 48s.xml">
+      <configuration name="py.test in test_create_entry.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_login_positive_py - 2018.09.12 at 16h 18m 04s.xml">
       <configuration name="py.test in test_login_positive.py" configurationId="tests" />
@@ -494,12 +488,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49565217" sideWeight="0.5057956" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.4947313" order="10" side_tool="false" content_ui="tabs" x="1931" y="370" width="1898" height="300" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49456522" sideWeight="0.49420443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.031521738" sideWeight="0.49420443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -528,7 +522,8 @@
     <MESSAGE value="Add config.ini" />
     <MESSAGE value="Add config" />
     <MESSAGE value="Add sphinx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sphinx" />
+    <MESSAGE value="make changes in test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="make changes in test methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,7 +672,6 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +902,6 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +915,7 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="34">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -954,16 +947,6 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/windows/main_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/windows.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -974,8 +957,8 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_create_entry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="296">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
@@ -984,10 +967,20 @@ list_e =storage.find_elements(*self.list_of_records)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/windows/login_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="61">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/windows/main_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
