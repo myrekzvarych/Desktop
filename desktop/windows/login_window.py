@@ -1,6 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-
 from desktop.windows.main_window import MainWindow
 
 

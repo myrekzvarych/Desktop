@@ -30,6 +30,10 @@ class AriaFrame:
         self.internet = (By.NAME, 'eMail')
         self.homebanking = (By.NAME, 'Homebanking')
 
+    def select_group(self, locator):
+        self.driver.find_element(*self.aria_frame).find_element(*self.my_db).find_element(By.NAME, locator).click()
+        return EntryFrame(self.driver)
+
     def select_general(self):
         self.driver.find_element(*self.aria_frame).find_element(*self.my_db).find_element(*self.general).click()
         return EntryFrame(self.driver)

@@ -1,3 +1,7 @@
 [
-  "test_create_entry.py::TestClass::()::test_create_general_record"
+  "test_create_entry.py::TestClass::()::test_create_record[General]",
+  "test_create_entry.py::TestClass::()::test_create_record[Windows]",
+  "test_create_entry.py::TestClass::()::test_create_record[Network]",
+  "test_create_entry.py::TestClass::()::test_create_record[eMail]",
+  "test_create_entry.py::TestClass::()::test_create_record[Homebanking]"
 ]
