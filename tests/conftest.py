@@ -16,6 +16,6 @@ def setup_tear_down(request):
     os.system('taskkill /f /im Winium.Desktop.Driver.exe')
 
 
-@pytest.fixture(params=['General', 'Windows', 'Network', 'eMail', 'Homebanking'])
+@pytest.fixture(params=['General', 'Windows', 'Network', 'Internet', 'eMail', 'Homebanking'])
 def name_group(request):
     return request.param
